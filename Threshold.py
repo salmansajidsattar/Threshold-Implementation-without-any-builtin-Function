@@ -1,5 +1,6 @@
 import cv2 as cv
 path='DATA\\v3.mp4'
+print('VIDEO PATH',path)
 cap=cv.VideoCapture(path)
 while True:
     ret,frame=cap.read()
